@@ -6,6 +6,7 @@ PostgreSQL Database of quotes:
 
 
 Final Application:
+
 https://github.com/yadunand-kamath/brain-fuel/assets/54073004/65d94a71-338c-4e60-917f-c40373e510df
 
 
