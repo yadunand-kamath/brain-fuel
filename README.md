@@ -1,12 +1,19 @@
 # brain-fuel
 An application that displays a random quote from a database of quotes.
 
-PostgreSQL Database of quotes:
+_Database of quotes_
 ![quote_db](https://github.com/yadunand-kamath/brain-fuel/assets/54073004/270c1ef0-5ca7-4c1d-8c12-1a5275520a92)
 
 
-Final Application:
+_Final Application_
 
 https://github.com/yadunand-kamath/brain-fuel/assets/54073004/65d94a71-338c-4e60-917f-c40373e510df
+
+
+Additional Details:-
+
+Database - **PostgreSQL**
+Backend - **Java**, **SpringBoot**
+Frontend - **Thymeleaf**, **HTML**, **CSS**, **Bootstrap**
 
 
