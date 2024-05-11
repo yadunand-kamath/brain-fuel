@@ -13,7 +13,9 @@ https://github.com/yadunand-kamath/brain-fuel/assets/54073004/65d94a71-338c-4e60
 Additional Details:-
 
 Database - **PostgreSQL**
+
 Backend - **Java**, **SpringBoot**
+
 Frontend - **Thymeleaf**, **HTML**, **CSS**, **Bootstrap**
 
 
