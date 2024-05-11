@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Fuel - Quote Bank</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jersey+25+Charted" rel="stylesheet">
+	
+    <style>
+        body {
+            background-color: #070F2B;
+            font-family: "DM Serif Display", serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .btn {
+        	color: #9290C3;
+        }
+        .btn:hover {
+        	color: #9290C3;
+        }
+        h1 {
+        	color: #535C91;
+        	font-family: "Jersey 25 Charted", sans-serif;
+        	font-size: 50px;
+        	margin-bottom: 15px;
+        }
+        #quote {
+        	color: #1B1A55;
+            margin-bottom: 30px;
+        }
+        #quote-container {
+        	font-size: 25px;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            background-color: #DBD8E3;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #author {
+            position: absolute;
+            margin-top: 20px;
+            bottom: 10px;
+            right: 10px;
+            font-size: 18px;
+            color: #535C91;
+        }
+        #next-quote-btn {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div id="quote-container">
+        <h1>Quote Bank</h1>
+        <div id="quote" th:text="${quote.quote}"></div>
+        <div id="author" th:text="'- ' + ${quote.source}" ></div>        
+    </div>
+    
+    <a th:href="@{/api/quotes/quote}">
+      		<button id="next-quote-btn" class="btn btn-link">Next Quote [F5] -></button>
+    </a>
+
+</body>
+</html>
