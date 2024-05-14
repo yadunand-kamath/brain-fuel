@@ -7,7 +7,7 @@ _Database of quotes_
 
 _Final Application_
 
-https://github.com/yadunand-kamath/brain-fuel/assets/54073004/65d94a71-338c-4e60-917f-c40373e510df
+https://github.com/yadunand-kamath/brain-fuel/assets/54073004/0a7b5f57-6052-4049-9179-b72e11cc9451
 
 
 Additional Details:-
