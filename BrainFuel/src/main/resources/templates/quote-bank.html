@@ -24,7 +24,7 @@
         	color: #9290C3;
         }
         h1 {
-        	color: #535C91;
+        	color: #9290C3;
         	font-family: "Jersey 25 Charted", sans-serif;
         	font-size: 50px;
         	margin-bottom: 15px;
@@ -58,14 +58,15 @@
     </style>
 </head>
 <body>
+    <h1>Quote Bank</h1>
+	
     <div id="quote-container">
-        <h1>Quote Bank</h1>
         <div id="quote" th:text="${quote.quote}"></div>
         <div id="author" th:text="'- ' + ${quote.source}" ></div>        
     </div>
     
     <a th:href="@{/api/quotes/quote}">
-      		<button id="next-quote-btn" class="btn btn-link">Next Quote [F5] -></button>
+      	<button id="next-quote-btn" class="btn btn-link">Next Quote [F5] -></button>
     </a>
 
 </body>
