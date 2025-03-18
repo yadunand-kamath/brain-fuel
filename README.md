@@ -14,7 +14,7 @@ _Video: Final Application_
 
 ---
 
-**_Additional Details_**:-
+**_Tech Stack_**:-
 
 - Database - **PostgreSQL**
 - Backend - **Java**, **SpringBoot**
